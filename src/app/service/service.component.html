@@ -1,0 +1,22 @@
+<section class="section-padding">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-10 col-12 text-center mx-auto">
+                <h2 class="mb-5">Our Services</h2>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0" *ngFor="let item of service">
+
+                <div class="featured-block d-flex justify-content-center align-items-center">
+                    <a href="#" class="d-block">
+
+                        <app-services service [service]="item"></app-services>
+                        <!-- <p class="text-center">Make Money Transfer With Our App, Send to wallet to bank.</p> -->
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<app-service1></app-service1>
